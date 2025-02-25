@@ -18,9 +18,5 @@ Limitations of the current "coding" are
    like to eliminate the bordering hightlight which is displayed
    upon cursor clicking into the box for input.
 
- * "input" element is not the auto-focused element.  Would 
-   like the cursor to be auto-placed into that element for user
-   input at initial loading of the page into the browser.
-
 ###	EOT
 
