@@ -1,0 +1,34 @@
+***********************************************************
+	Concept Testbed - GameBoard_TargetAndFleet
+***********************************************************
+
+Fileset:	GameBoard_TargetAndFleet__iter01.tar
+
+	********	********	********	
+	********	********	********	
+
+This is an iteration in the development of the GUI for an internet-based, peer-to-peer, browser-to-browser, 2-player version of the well-known Battleship game.
+
+The development status is "early stages of methods selection".
+
+At this point, because other approaches did not appear to be as simple or workable, the "iframe" approach for "importing" external content has been used, but with apparent limited success. The issue encountered are:
+
+* the apparent inability to fully control the sizes and placement of iframes within clearly defined parent "div" elements;
+
+* the apparent inability to use "global" CSS files for content within the iframes; and
+
+* the apparent inability to reference "global" JavaScript variables/objects from within the iframes.
+
+
+It would be much appreciated if anyone could offer specific/detailed
+
+* explanations as to why these issues have arisen, and
+
+* coding changes that would address the issues encountered, while adhering to the conditions of using ONLY basic vanilla JavaScript, no external web-based libraries/frameworks, so that two independant, non-co-located computers could play the game with nothing more than installing distro-standard packages/libraries that have purely desktop-based dependencies (no need for remote calls (Is this even possible ???).
+
+	********	********	********	
+	********	********	********	
+
+Eric Marceau
+https://github.com/ericmarceau-rogers
+
